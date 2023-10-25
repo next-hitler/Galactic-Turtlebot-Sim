@@ -1,0 +1,6 @@
+source /opt/ros/humble/setup.bash
+source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+
+export TURTLEBOT3_MODEL=burger
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/opt/ros/humble/share/turtlebot3_gazebo/models
+alias humble="source /opt/ros/humble/setup.bash && source /home/ros/humble_ws/home_ws/install/setup.bash"
